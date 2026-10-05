@@ -10,13 +10,14 @@
         <module name="candidat" />
         <module name="ConfigServer" />
         <module name="Job" />
+        <module name="job" />
+        <module name="Eureka" />
         <module name="gateway" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="condidature" target="1.5" />
       <module name="eureka" target="17" />
-      <module name="job" target="17" />
       <module name="meeting" target="17" />
       <module name="notification" target="17" />
     </bytecodeTargetLevel>
@@ -24,6 +25,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="ConfigServer" options="-parameters" />
+      <module name="Eureka" options="-parameters" />
       <module name="Job" options="-parameters" />
       <module name="candidat" options="-parameters" />
       <module name="condidature" options="" />
